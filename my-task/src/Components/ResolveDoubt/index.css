@@ -1,0 +1,38 @@
+h4 {
+  color: #404040;
+}
+.headings {
+  padding-left: 5rem;
+}
+button {
+  padding: 8px 80px 8px 80px;
+  margin: 5px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #404040;
+}
+.button-1 {
+  background-color: #cde07a;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .buttons-container {
+    padding-left: 9.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .buttons-container {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .headings {
+    padding-left: 1rem;
+  }
+  .buttons-container {
+    margin: auto;
+  }
+}

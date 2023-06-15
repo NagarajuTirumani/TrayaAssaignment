@@ -1,0 +1,57 @@
+.final-review {
+  border: 0px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  width: 55%;
+}
+.final-review:focus-visible {
+  outline: none;
+  padding-left: 10px;
+}
+.submit-button {
+  background-color: #cde07a;
+  font-weight: 600;
+  margin-top: 25%;
+  color: #5c5f4d;
+}
+.tellus-container {
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .submit-button {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .headings {
+    padding-left: 5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .headings {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .submit-button {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tellus-container {
+    width: 100%;
+    text-align: start;
+    padding-bottom: 2rem;
+  }
+  .final-review {
+    margin-left: 5rem;
+  }
+  .submit-button {
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+}
+

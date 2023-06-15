@@ -1,0 +1,72 @@
+.label-description {
+  text-shadow: none;
+  color: rgb(137, 132, 132);
+  font-size: 10px;
+}
+
+.center .stars {
+  text-align: center;
+  direction: rtl;
+}
+
+.stars input {
+  display: none;
+}
+
+.headings {
+  padding-left: 5rem;
+}
+
+.stars label {
+  font-size: 60px;
+  color: lightgrey;
+  margin: 0px 15px 0px 15px;
+  text-shadow: 1px 1px #bbb;
+}
+
+.stars input:checked ~ label {
+  color: gold;
+}
+
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label {
+  color: gold;
+}
+
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label {
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .stars label{
+    font-size: 45px;
+  }
+  .headings {
+    padding-left: 2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .center .stars {
+    text-align: end;
+    padding-left: 8.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .stars label{
+    margin: 0px 8px 0px 8px;
+  }
+  .headings {
+    padding-left: 2.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .headings {
+    padding-left: 1rem;
+  }
+  .stars label{
+    margin: 0px 8px 0px 8px;
+  }
+}

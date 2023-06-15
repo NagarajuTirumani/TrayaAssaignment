@@ -1,0 +1,35 @@
+.language-design {
+  padding-left: 5rem;
+}
+input {
+  transform: scale(1.5);
+  accent-color: #589307;
+}
+
+.input-container {
+  border-bottom: 2px solid rgb(230, 228, 228);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .language-design {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .language-design {
+    padding-left: 10rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .language-design {
+    padding-left: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .language-design {
+    padding-left: 3.5rem;
+  }
+}
